@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">MusicPlayer-android-app</string>
+    <string name="mainActivityLabel">Select a category</string>
+    <string name="songListActivityLabel">Songs List</string>
+    <string name="SongPlayerActivityLabel">Song Player</string>
+    <string name="likeButton">Like this Song</string>
+</resources>
