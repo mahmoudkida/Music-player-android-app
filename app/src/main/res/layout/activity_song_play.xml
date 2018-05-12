@@ -73,4 +73,10 @@
         android:layout_gravity="center_horizontal"
         fancy:fb_textColor="#FFFFFF" />
 
+    <Button
+        android:id="@+id/backtoSongs"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="wrap_content"
+        android:text="@string/backToSongs" />
 </LinearLayout>

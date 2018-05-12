@@ -12,12 +12,11 @@ import android.widget.TextView;
 import java.util.ArrayList;
 
 public class SongAdapter extends ArrayAdapter<Song> {
-
     /**
      * Create a new {@link SongAdapter} object.
      *
-     * @param context is the current context (i.e. Activity) that the adapter is being created in.
-     * @param songs is the list of {@link songs}s to be displayed.
+     * @param context         is the current context (i.e. Activity) that the adapter is being created in.
+     * @param songs           is the list of {@link songs}s to be displayed.
      * @param colorResourceId is the resource ID for the background color for this list of songs
      */
     public SongAdapter(Context context, ArrayList<Song> Songs) {
@@ -34,26 +33,14 @@ public class SongAdapter extends ArrayAdapter<Song> {
         }
         // Get the {@link Word} object located at this position in the list
         Song currentSong = getItem(position);
-
-
-
-
         TextView songTextView = (TextView) listItemView.findViewById(R.id.songName);
         songTextView.setText(currentSong.getSongName());
-
         TextView artistTextView = (TextView) listItemView.findViewById(R.id.songArtist);
         artistTextView.setText(currentSong.getArtistName());
-
         TextView likesTextView = (TextView) listItemView.findViewById(R.id.likes);
         likesTextView.setText(String.valueOf(currentSong.getLikes()));
-
         ImageView songImage = (ImageView) listItemView.findViewById(R.id.circleImageView);
         songImage.setImageResource(currentSong.getImage());
-
         return listItemView;
-
     }
-
-
-
 }

@@ -29,20 +29,7 @@ public class MusicCategory {
         this.image = image;
     }
 
-    public int getRedirectToLayout() {
-        return redirectToLayout;
-    }
-
-    public void setRedirectToLayout(int redirectToLayout) {
-        this.redirectToLayout = redirectToLayout;
-    }
-
     public String getSubheader() {
         return Subheader;
     }
-
-    public void setSubheader(String subheader) {
-        Subheader = subheader;
-    }
-
 }

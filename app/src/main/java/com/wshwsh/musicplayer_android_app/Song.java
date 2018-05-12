@@ -29,10 +29,6 @@ public class Song {
         return ArtistName;
     }
 
-    public void setArtistName(String artistName) {
-        ArtistName = artistName;
-    }
-
     public int getLikes() {
         return likes;
     }
@@ -45,16 +41,8 @@ public class Song {
         return songFile;
     }
 
-    public void setSongFile(int songFile) {
-        this.songFile = songFile;
-    }
-
     public String getMusicCategory() {
         return musicCategory;
-    }
-
-    public void setMusicCategory(String musicCategory) {
-        this.musicCategory = musicCategory;
     }
 
     public Integer getImage() {

@@ -4,4 +4,7 @@
     <string name="songListActivityLabel">Songs List</string>
     <string name="SongPlayerActivityLabel">Song Player</string>
     <string name="likeButton">Like this Song</string>
+    <string name="viewAllSongs">View All Songs</string>
+    <string name="viewAllCategories">View All Categories</string>
+    <string name="backToSongs">Bak to Songs</string>
 </resources>
